@@ -1,0 +1,35 @@
+.blog-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.333% - 20px); /* Üç sütun halinde */
+    box-sizing: border-box;
+    transition: transform 0.2s;
+  }
+  
+  .blog-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .blog-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .blog-content {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  .blog-author {
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .blog-date {
+    font-size: 0.8em;
+    color: #666;
+  }

@@ -1,0 +1,18 @@
+.blog-list {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .blog-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .blog-title {
+    text-align: center; 
+    font-weight: bold;  
+    font-size: 2em;     
+    margin-bottom: 20px; 
+  }
+  
